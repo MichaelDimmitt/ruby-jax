@@ -3,4 +3,4 @@ development:
   host: localhost
   username:
   password:
-  database: rubyparis_dev
+  database: rubyjax_dev

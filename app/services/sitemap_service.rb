@@ -6,7 +6,7 @@ class SitemapService
   end
 
   def call
-    SitemapGenerator::Sitemap.default_host = 'http://rubyparis.org'
+    SitemapGenerator::Sitemap.default_host = 'http://rubyjax.herokuapp.com'
     SitemapGenerator::Sitemap.create do
       add videos_path,
         changefreq: 'monthly',

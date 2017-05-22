@@ -1,19 +1,19 @@
 fr:
   simple_form:
-    "yes": 'Oui'
-    "no": 'Non'
+    "yes": 'Yes'
+    "no": 'No'
 
     error_notification:
       default_message: "Please review the problems below:"
 
     labels:
       q:
-        title_cont: Recherche
+        title_cont: Research
 
     required:
-      text: 'requis'
+      text: 'required'
       mark: '*'
 
     placeholders:
       q:
-        title_cont: 'Recherche: titre...'
+        title_cont: 'Research: title...'
