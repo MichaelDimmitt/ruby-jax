@@ -35,8 +35,8 @@ Rails.application.configure do
   # Raises error for missing translations
   config.action_view.raise_on_missing_translations = true
 
-  config.action_mailer.asset_host          = 'http://rubyparis.dev'
-  config.action_mailer.default_url_options = { host: 'rubyparis.dev' }
+  config.action_mailer.asset_host          = 'http://rubyjax.dev'
+  config.action_mailer.default_url_options = { host: 'rubyjax.dev' }
   config.action_mailer.delivery_method     = :smtp
   config.action_mailer.smtp_settings       = { host: 'localhost', port: 1025 }
 end

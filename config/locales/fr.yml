@@ -2,42 +2,42 @@ fr:
   'yes': 'Oui'
   'no': 'Non'
 
-  contact_maintainer: Contacter le mainteneur (@happynoff)
-  project_on_github: Retrouver ce projet sur Github
+  contact_maintainer: Contact the maintainer (@m_dimmitt)
+  project_on_github: Find this project on Github
 
-  site_name: Paris.rb
+  site_name: RubyJax
 
   activerecord:
     attributes:
       user:
         email: Email
-        password: Mot de passe
-        remember_me: Se souvenir de moi
+        password: Password
+        remember_me: Remember me
       talk:
-        duration: Durée
-        happened: A eu lieu
+        duration: Duration
+        happened: Was held
         happened_at: Date
-        level: Difficulté
-        lineup: Ajouter au lineup
+        level: Difficulty
+        lineup: Add to lineup
         slides: Slides
         speaker_email: Email
         speaker_name: Speaker
-        title: Titre
-        video_slug: Vidéo
+        title: Title
+        video_slug: Video
 
   devise:
     passwords:
       new:
-        send_instructions: Envoyer les instructions
-        title: Mot de passe oublié
+        send_instructions: Send instructions
+        title: Forgot your password
     sessions:
       new:
-        sign_in: Me connecter
-        title: Connexion
+        sign_in: Log in
+        title: Log in
     shared:
       links:
-        forgot_password: 'Mot de passe oublié ?'
-        sign_in: Connexion
+        forgot_password: 'Forgot your password ?'
+        sign_in: Log in
 
   enumerize:
     talk:
@@ -45,58 +45,60 @@ fr:
         lightning: Lightning - 5 min
         long: Long - 20 min
       level:
-        easy: Débutant
-        intermediate: Moyen
+        easy: Easy
+        intermediate: Intermediate
         expert: Expert
 
   helpers:
     submit:
       talk:
-        create: Ajouter mon talk
+        create: Add my talk
       q:
         create: Ok
 
   talks:
     form:
-      accept_coc: Je m’engage à respecter le Code of Conduct de ParisRB
+      accept_coc: I agree to abide by the code of conduct of RubyJax
     index:
       description: >-
-        Voir la liste des talks proposés pour les prochains meetups. Proposez
-        votre talk !
+        See the list of talks proposed for the next meetup.
+        Submit your talk!
       faq: |
-        ## Je suis un newbie, et j'ai peeeeuuur de présenter
+        ## I am a newbie, and I have a presentation to introduce
 
-        À Paris.rb on n'est pas là pour se moquer des novices. Nous serons
-        TOUJOURS ravis d'accueillir les talks débutants comme confirmés.
+        In RubyJax we are not there to make fun of the novices. We will be
+        ALWAYS delighted to welcome talks beginners as confirmed.
 
-        ## Je voudrais faire une présentation de + de 20 minutes
 
-        Les présentations sont chronometrées, dans le but de ne pas trop
-        fatiguer les rubyistes qui vous écoutent, et des études ont prouvé
-        que les 2 meilleurs timings sont : 5 minutes et 20 minutes.
+        ## I would like to make a presentation of more than 20 minutes
 
-        ## Je veux présenter ma société, ou mon produit
+        The presentations are timed, with the aim not to
+        Tire rubyists who listen to you. Studies have proven
+        That the 2 best timings are: 5 minutes and 20 minutes.
 
-        Nous sommes ici pour parler de Ruby, de Rails, et du monde des
-        startups sur Paris. Pour faire la promotion d'une société, d'un
-        produit, ou rechercher un profil, la coutume est d'aider la
-        communauté en sponsorisant les événements Ruby.
+        ## Introduce company and or product
 
-        Si vous avez d'autres questions, n'hésitez pas à envoyer un email à
-        [Thibaut](mailto:thibaut@milesrock.com)
 
-      lineup: Lineup du prochain meetup
-      proposed_talks: Autres talks proposés
-      happened_talks: Talks ayant déjà eu lieu
-      resources: Ressources
+        We are here to talk about Ruby, Rails, and the world of
+        Startups in Jacksonville. To promote a company, a
+        Product, or look for a profile, the custom is to help the
+        Community by sponsoring Ruby events.
+
+        If you have any further questions, please send an email to
+        [Michael](mailto:michaelgdimmitt@gmail.com)
+
+      lineup: Lineup of the next meetup
+      proposed_talks: Talks proposed
+      happened_talks: Talks having already taken place
+      resources: Resources
       slides: slides
-      title: Proposer un talk
-      video: vidéo
+      title: Propose a talk
+      video: video
 
   videos:
     index:
-      description: Toutes les vidéos des talks du meetup Paris.rb
-      title: Vidéos des talks
+      description: All the talks videos of the meetup RubyJax.
+      title: Videos of Talks
 
   views:
     pagination:
@@ -109,33 +111,33 @@ fr:
   welcome:
     index:
       description: >-
-        Le plus grand meetup Ruby d'Europe ! Toutes les vidéos de Paris.rb.
-        Liste des talks des prochains meetups.
+        The Jacksonville Ruby meetup ! All videos by RubyJax.
+        List of talks of the next meetups..
       ellipsis:
-        title: Paris.rb c'est aussi...
+        title: RubyJax is also...
       jobs:
-        add: Poster un job…
-        subtitle: vous tendent les bras ^^
-        title: Les jobs du moment
+        add: Post a job…
+        subtitle: For your consideration 
+        title: Current jobs
       guests:
-        title: Ce que nos invités en disent
+        title: What our guests say
       show-off:
-        active_members: Plus de 100 membres présents chaque mois.
+        active_members: More than 20 members present each month.
         members_count: >-
-          {{members}} membres sur [Meetup.org](http://www.meetup.com/parisrb/)
+          {{members}} Members on [Meetup.org](http://www.meetup.com/rubyjax/)
 
-        title: Le plus grand meetup Ruby d'Europe !
+        title: A Ruby meetup in Jacksonville !
       sponsors:
-        subtitle: À qui nous disons un grand MERCI !
-        title: Nos sponsors
+        subtitle: To whom we say great THANK YOU !
+        title: Our sponsorsn
       talks:
-        subtitle: Toutes les présentations sont filmées
-        title: Des talks de qualité
-        videos: Voir les vidéos
+        subtitle: All presentations are filmed
+        title: Quality Talks
+        videos: See the videos
       tweet_infos: >-
         {{author}}
         ([@{{twitter_handle}}](https://twitter.com/{{twitter_handle}}))
         {{cool_projects}}
       you:
-        give_a_talk: Proposer un talk !
-        title: Mais Paris.rb c'est avant tout... VOUS!
+        give_a_talk: Propose a talk !
+        title: But RubyJax is above all ... YOU!

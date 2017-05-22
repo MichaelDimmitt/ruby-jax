@@ -15,9 +15,9 @@ module Meetup
     end
 
     def get_meetup_members
-      json = ::Net::HTTP.get(URI("https://api.meetup.com/2/groups?group_urlname=parisrb&format=json"))
-      parisrb = JSON.parse(json)
-      REDIS.set('meetup_members', parisrb['members'])
+      json = ::Net::HTTP.get(URI("https://api.meetup.com/2/groups?group_urlname=rubyjax&format=json"))
+      rubyjax = JSON.parse(json)
+      REDIS.set('meetup_members', rubyjax['members'])
       REDIS.expire('meetup_members', 24.hours)
       members_count
     end
